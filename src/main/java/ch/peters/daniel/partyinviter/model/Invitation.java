@@ -2,7 +2,17 @@ package ch.peters.daniel.partyinviter.model;
 
 import java.util.UUID;
 
+/**
+ * Invitation model class.
+ *
+ * @author Daniel Peters
+ * @version 1.0
+ */
 public class Invitation extends Entity {
+  private Party party;
+  private Person person;
+  private Status status;
+
   public enum Status {
     INVITED, ACCEPTED, DECLINED
   }
@@ -25,10 +35,6 @@ public class Invitation extends Entity {
   public Invitation(Party party, Person person, Status status) {
     this(UUID.randomUUID(), party, person, status);
   }
-
-  private Party party;
-  private Person person;
-  private Status status;
 
   public Party getParty() {
     return party;

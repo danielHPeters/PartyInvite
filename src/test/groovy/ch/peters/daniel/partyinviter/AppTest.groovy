@@ -5,7 +5,7 @@ import spock.lang.Specification
 /**
  * App class unit test.
  *
- * @author Daniel Peters <daniel.peters.ch@gmail.com>
+ * @author Daniel Peters
  * @version 1.0
  */
 class AppTest extends Specification {

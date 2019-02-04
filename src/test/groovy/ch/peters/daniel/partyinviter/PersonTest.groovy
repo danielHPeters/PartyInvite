@@ -9,7 +9,7 @@ import java.time.LocalDate
 /**
  * Person class test.
  *
- * @author Daniel Peters <daniel.peters.ch@gmail.com>
+ * @author Daniel Peters
  * @version 1.0
  */
 class PersonTest extends Specification {

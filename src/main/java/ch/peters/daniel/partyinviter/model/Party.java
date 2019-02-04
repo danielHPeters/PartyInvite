@@ -7,7 +7,7 @@ import java.util.UUID;
 /**
  * Party model class.
  *
- * @author Daniel Peters <daniel.peters.ch@gmail.com>
+ * @author Daniel Peters
  * @version 1.0
  */
 public class Party extends Entity {
@@ -22,6 +22,7 @@ public class Party extends Entity {
     this.name = name;
     this.description = description;
     this.guests = new ArrayList<>();
+    this.host = host;
     this.invitations = new ArrayList<>();
   }
 
